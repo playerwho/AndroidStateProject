@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Android StateProject</string>
+    <string name="title_activity_transfer">TransferActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="nameHint">name</string>
+    <string name="phraseHint">phrase</string>
+    <string name="ageHint">age</string>
+    <string name="otherHint">other</string>
+    <string name="data">Hi!</string>
+    <string name="home">home</string>
+    <string name="combo">combine text</string>
+
+</resources>
