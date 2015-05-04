@@ -1,6 +1,7 @@
 package ctec.androidstateproject.model;
 
 import android.app.Application;
+import android.widget.Button;
 
 public class androidAppState extends Application
 {
@@ -12,6 +13,9 @@ public class androidAppState extends Application
 
 	private String other;
 	
+	/**
+	 * creates blank fields for text use
+	 */
 	public void onCreate()
 	{
 		super.onCreate();
@@ -22,6 +26,10 @@ public class androidAppState extends Application
 		other = "";
 	}
 
+	/**
+	 * gets ans sets various objets
+	 * @return the objects
+	 */
 	public String getName()
 	{
 		return name;

@@ -11,5 +11,7 @@
     <string name="data">Hi!</string>
     <string name="home">home</string>
     <string name="combo">combine text</string>
+    <string name="title_activity_combine">CombineActivity</string>
+    <string name="Goodbye">Goodbye</string>
 
 </resources>

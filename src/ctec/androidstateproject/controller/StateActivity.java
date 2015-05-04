@@ -14,6 +14,9 @@ public class StateActivity extends Activity
 	private Button changeButton;
 	private androidAppState appState;
 	
+	/**
+	 * creates layout and declares  various objects
+	 */
     @Override
     protected void onCreate(Bundle savedInstanceState)
     {
@@ -30,10 +33,13 @@ public class StateActivity extends Activity
         setupListeners();
     }
     
+    
     private void setupListeners()
     {
+    	
     	changeButton.setOnClickListener(new View.OnClickListener()
 		{
+    		
 			@Override
 			public void onClick(View currentView)
 			{
@@ -42,10 +48,11 @@ public class StateActivity extends Activity
 				appState.setPhrase(phraseField.getText().toString());
 				appState.setOther(otherField.getText().toString());
 				
+				/**
+				 * open new screen
+				 */
 				Intent otherScreenIntent = new Intent(currentView.getContext(), TransferActivity.class);
 				startActivityForResult(otherScreenIntent, 0);
-				
-				
 			}
 		});
     }

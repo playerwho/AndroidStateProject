@@ -4,15 +4,6 @@
     android:layout_height="match_parent"
     tools:context="${relativePackage}.${activityClass}" >
 
-    <Button
-        android:id="@+id/homeButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="24dp"
-        android:text="@string/home" />
-
     <TextView
         android:id="@+id/combineTextView"
         android:layout_width="wrap_content"
@@ -21,5 +12,14 @@
         android:layout_alignParentTop="true"
         android:layout_marginTop="100dp"
         android:text="@string/data" />
+
+    <Button
+        android:id="@+id/homeButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="16dp"
+        android:text="@string/home" />
 
 </RelativeLayout>
